@@ -1,10 +1,10 @@
-def my_each (array) 
+def my_each (array) {puts item}
   i = 0 
   
   while i < array.length 
-   
+   item = array[i]
     
-    yield puts array[i]
+    yield (item)
     
   i +=1 
   end
